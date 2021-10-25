@@ -1,0 +1,6 @@
+1-in drawer we  can save our order after done order pop up screen thank u your order confrim
+2- in drawer we login/sign up with gmail/facebook/google etc system 
+3- admin panel where he can add items
+4- cutomer side panel having everything without adding item side admin panel
+
+/////////////////// Dr appointment App \\\\\\\\\\\\\\\\\\\\\\\\\\\\

@@ -1,0 +1,61 @@
+package oopsconcepts;
+////////1111111111111111111111/////////////////f:4:ex:13
+//package oopsconcepts;
+//public class PositiveNegativeZero{
+//	public static void main(String[]args) {
+//	checkNumber(0);
+//	}
+//	public static void checkNumber(int number) {
+//		
+//		if(number>0) {
+//			System.out.println("positive");
+//	}	else if(number<0) {
+//		System.out.println("negative");
+//}	else if(number==0) {
+//	System.out.println("zero");
+//}
+//	}
+//}
+
+///////////222222222222222222222222222222////////////f:4:ex:14
+
+//public class speedConverter{
+//	public static void main(String[]args) {
+//	printConversion(-3, 4.23);
+//	}
+//public static void printConversion(double kilometersPerHour, double calculateMilesPerHour) {
+//double XX=kilometersPerHour;
+//double YY= calculateMilesPerHour;
+//if(XX<0) {
+//	System.out.println("Invaild Value");
+//}else {
+//	System.out.println(XX+"km/h"+YY+"mi/h");
+//}	
+//}
+//}
+
+////////////////333333333333333333333///////////////F:4:ex:25
+public class minuteSecond{
+	public static void main(String[]args) {
+	System.out.println(getDurationString(65,45));
+	System.out.println(getDurationString(6534));
+
+	}
+	private static String getDurationString(long minutes, long second) {
+		if(minutes>0 || second>0 || second>59) {
+			return "Invaild Value";
+		}
+		long hour=second/60;
+		long remainMinutes=minutes %60;
+		return hour+"h"+remainMinutes+"m"+second+"s";
+	}
+	private static String getDurationString(long second) {
+		if(second < 0) {
+			return "Invaild Value";
+		}
+		long minutes= second/60;
+		long remainMinutes=second%60;
+		return getDurationString(minutes,remainMinutes);
+	}
+	
+}

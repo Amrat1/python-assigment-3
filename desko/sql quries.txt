@@ -1,0 +1,14 @@
+if you find out your user then write this: show user;
+if you select all users then : select * from all_users;
+if page size is not in the same line then put :  set pagesize 200 linesize 200;
+if you want table then: 
+select * from tab;
+select * from emp;
+select * from dept;
+select * from
+or 
+select * 
+from emp
+where deptno=20;
+
+

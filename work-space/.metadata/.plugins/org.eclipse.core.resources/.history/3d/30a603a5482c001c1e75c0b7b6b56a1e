@@ -1,0 +1,34 @@
+package oopsconcepts;
+////////1111111111111111111111/////////////////f:4:ex:13
+//package oopsconcepts;
+//public class PositiveNegativeZero{
+//	public static void main(String[]args) {
+//	checkNumber(0);
+//	}
+//	public static void checkNumber(int number) {
+//		
+//		if(number>0) {
+//			System.out.println("positive");
+//	}	else if(number<0) {
+//		System.out.println("negative");
+//}	else if(number==0) {
+//	System.out.println("zero");
+//}
+//	}
+//}
+
+///////////222222222222222222222222222222////////////f:4:ex:14
+
+public class speedConverter{
+	public static void main(String[]args) {
+	printConversion(22.453, 4.23);
+	}
+public static void printConversion(double kilometersPerHour, double calculateMilesPerHour) {
+double XX=kilometersPerHour;
+double YY= calculateMilesPerHour;
+if(XX<0) {
+	System.out.println("Invaild Value");
+}
+	System.out.println(XX+"km/h"+YY+"mi/h");
+}	
+}
